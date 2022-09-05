@@ -1,0 +1,61 @@
+:toc: macro
+:toc-title: Summary
+:toclevels: 3
+:numbered:
+
+ifndef::env-github[:icons: font]
+ifdef::env-github[]
+:status:
+:outfilesuffix: .adoc
+:caution-caption: :fire:
+:important-caption: :exclamation:
+:note-caption: :paperclip:
+:tip-caption: :bulb:
+:warning-caption: :warning:
+endif::[]
+
+:back_to_top_target: top-target
+:back_to_top_label: ⬆ Back to top
+:back_to_top: <<{back_to_top_target},{back_to_top_label}>>
+
+:main_title: Workshop INPN (SPA)
+:git_project_base: workshop-inpn
+:git_project_docs: {git_project_base}-docs
+:git_project_api: {git_project_base}-api-symfony-docker
+:git_project_spa: {git_project_base}-spa-angular-docker
+:git_username: jprivet-dev
+:git_url_docs: https://github.com/{git_username}/{git_project_docs}
+:git_url_api: https://github.com/{git_username}/{git_project_api}
+:git_url_spa: https://github.com/{git_username}/{git_project_spa}
+:git_clone_ssh_docs: git@github.com:{git_username}/{git_project_docs}.git
+:git_clone_ssh_api: git@github.com:{git_username}/{git_project_api}.git
+:git_clone_ssh_spa: git@github.com:{git_username}/{git_project_spa}.git
+
+[#{back_to_top_target}]
+= {main_title}
+
+toc::[]
+
+== Presentation
+
+Study of an API (Symfony) and a SPA (Angular), to load data from OpenObs of the INPN (https://openobs.mnhn.fr/), in CSV/Excel format, with online consultation and modification.
+
+|===
+| Docs | {git_url_docs}
+| API (Symfony) | {git_url_api}
+| SPA (Angular) | {git_url_spa}
+|===
+
+== Comments, suggestions?
+
+Feel free to make comments/suggestions to me in the {git_url_api}/issues[Git issues section].
+
+{back_to_top}
+
+== License
+
+"{main_title}" is released under the {git_url_api}/blob/main/LICENSE[*MIT License*]
+
+---
+
+{back_to_top}
