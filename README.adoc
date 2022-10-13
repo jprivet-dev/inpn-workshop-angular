@@ -18,16 +18,13 @@ endif::[]
 :back_to_top_label: ⬆ Back to top
 :back_to_top: <<{back_to_top_target},{back_to_top_label}>>
 
-:main_title: Workshop INPN (SPA)
-:git_project_base: workshop-inpn
-:git_project_docs: {git_project_base}-docs
-:git_project_api: {git_project_base}-api-symfony-docker
-:git_project_spa: {git_project_base}-spa-angular-docker
+:main_title: Number Wall (SPA)
+:git_project_base: number-wall
+:git_project_api: {git_project_base}-api
+:git_project_spa: {git_project_base}-spa
 :git_username: jprivet-dev
-:git_url_docs: https://github.com/{git_username}/{git_project_docs}
 :git_url_api: https://github.com/{git_username}/{git_project_api}
 :git_url_spa: https://github.com/{git_username}/{git_project_spa}
-:git_clone_ssh_docs: git@github.com:{git_username}/{git_project_docs}.git
 :git_clone_ssh_api: git@github.com:{git_username}/{git_project_api}.git
 :git_clone_ssh_spa: git@github.com:{git_username}/{git_project_spa}.git
 
@@ -38,12 +35,11 @@ toc::[]
 
 == Presentation
 
-Study of an API (Symfony) and a SPA (Angular), to load data from OpenObs of the INPN (https://openobs.mnhn.fr/), in CSV/Excel format, with online consultation and modification.
+Study of an API (Symfony) and a SPA (Angular), to load data in CSV/Excel format, with consultation and modification of this data online.
 
 |===
-| Docs | {git_url_docs}
-| API (Symfony) | {git_url_api}
-| SPA (Angular) | {git_url_spa}
+| API (Symfony/Docker) | {git_url_api}
+| SPA (Angular/Docker) | {git_url_spa}
 |===
 
 == Comments, suggestions?
